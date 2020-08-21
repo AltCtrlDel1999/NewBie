@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="15dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="90dp"
+            android:id="@+id/find_user_profile_image"
+            android:layout_height="90dp"
+            android:src="@drawable/profile"/>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/find_user_profile_name"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="User Name"
+                android:textStyle="bold"
+                android:textAlignment="textStart"
+                android:layout_marginLeft="8dp"
+                />
+            <TextView
+                android:id="@+id/find_user_profile_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="Phone Number"
+                android:textStyle="bold"
+                android:textAlignment="textStart"
+                android:layout_marginLeft="8dp"
+                />
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/request_accept_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="Accept"
+                    android:textSize="16sp"
+                    android:textAllCaps="false"
+                    android:background="@android:color/holo_green_light"
+                    android:visibility="invisible"
+                    />
+                <Button
+                    android:id="@+id/request_cancel_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="Cancel"
+                    android:layout_marginStart="8dp"
+                    android:textSize="16sp"
+                    android:textAllCaps="false"
+                    android:background="@android:color/holo_red_dark"
+                    android:textColor="@android:color/background_light"
+                    android:visibility="invisible"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
