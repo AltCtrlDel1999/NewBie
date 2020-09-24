@@ -1,7 +1,7 @@
 # NewBie
 Android Application to find nearby room and perfect roommates built using Android Studio
 
-![An Image](images/newbie1.png)<!-- .element height="100px" width="100px" --> 
+![An Image](images/newbie1.png){:height="700px" width="400px"}
 ![An Image1](images/newbie2.png)<!-- .element height="50%" width="50%" -->
 
 ![An Image2](images/newbie3.png) <!-- .element height="50%" width="50%" -->
